@@ -1,0 +1,32 @@
+﻿  源.cpp
+源.cpp(133): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+源.cpp(134): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+源.cpp(171): warning C4018: “<”: 有符号/无符号不匹配
+源.obj : error LNK2001: 无法解析的外部符号 "double __cdecl cv::calibrateCamera(class cv::_InputArray const &,class cv::_InputArray const &,class cv::Size_<int>,class cv::_InputOutputArray const &,class cv::_InputOutputArray const &,class cv::_OutputArray const &,class cv::_OutputArray const &,int,class cv::TermCriteria)" (?calibrateCamera@cv@@YANABV_InputArray@1@0V?$Size_@H@1@ABV_InputOutputArray@1@2ABV_OutputArray@1@3HVTermCriteria@1@@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::imshow(class cv::String const &,class cv::_InputArray const &)" (?imshow@cv@@YAXABVString@1@ABV_InputArray@1@@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "public: static struct cv::Ptr<class cv::Formatter> __cdecl cv::Formatter::get(int)" (?get@Formatter@cv@@SA?AU?$Ptr@VFormatter@cv@@@2@H@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "bool __cdecl cv::imwrite(class cv::String const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NABVString@1@ABV_InputArray@1@ABV?$vector@HV?$allocator@H@std@@@std@@@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall cv::VideoCapture::set(int,double)" (?set@VideoCapture@cv@@UAE_NHN@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall cv::VideoCapture::isOpened(void)const " (?isOpened@VideoCapture@cv@@UBE_NXZ)
+源.obj : error LNK2001: 无法解析的外部符号 "public: virtual __thiscall cv::VideoCapture::~VideoCapture(void)" (??1VideoCapture@cv@@UAE@XZ)
+源.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall cv::VideoCapture::VideoCapture(int)" (??0VideoCapture@cv@@QAE@H@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cornerSubPix(class cv::_InputArray const &,class cv::_InputOutputArray const &,class cv::Size_<int>,class cv::Size_<int>,class cv::TermCriteria)" (?cornerSubPix@cv@@YAXABV_InputArray@1@ABV_InputOutputArray@1@V?$Size_@H@1@2VTermCriteria@1@@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::namedWindow(class cv::String const &,int)" (?namedWindow@cv@@YAXABVString@1@H@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)
+源.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "public: class cv::Mat & __thiscall cv::Mat::setTo(class cv::_InputArray const &,class cv::_InputArray const &)" (?setTo@Mat@cv@@QAEAAV12@ABV_InputArray@2@0@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Scalar_<double> const &)" (??4Mat@cv@@QAEAAV01@ABV?$Scalar_@N@1@@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@HH@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "class cv::_InputOutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAABV_InputOutputArray@1@XZ)
+源.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::projectPoints(class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::_OutputArray const &,class cv::_OutputArray const &,double)" (?projectPoints@cv@@YAXABV_InputArray@1@0000ABV_OutputArray@1@1N@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "double __cdecl cv::norm(class cv::_InputArray const &,class cv::_InputArray const &,int,class cv::_InputArray const &)" (?norm@cv@@YANABV_InputArray@1@0H0@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::putText(class cv::_InputOutputArray const &,class cv::String const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXABV_InputOutputArray@1@ABVString@1@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+源.obj : error LNK2001: 无法解析的外部符号 "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "class cv::Size_<int> __cdecl cv::getTextSize(class cv::String const &,int,double,int,int *)" (?getTextSize@cv@@YA?AV?$Size_@H@1@ABVString@1@HNHPAH@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::Rodrigues(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::_OutputArray const &)" (?Rodrigues@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@1@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "bool __cdecl cv::findChessboardCorners(class cv::_InputArray const &,class cv::Size_<int>,class cv::_OutputArray const &,int)" (?findChessboardCorners@cv@@YA_NABV_InputArray@1@V?$Size_@H@1@ABV_OutputArray@1@H@Z)
+源.obj : error LNK2001: 无法解析的外部符号 "class cv::String __cdecl cv::format(char const *,...)" (?format@cv@@YA?AVString@1@PBDZZ)
+源.obj : error LNK2001: 无法解析的外部符号 "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+F:\AllFile\code\calibration\Release\calibration.exe : fatal error LNK1120: 27 个无法解析的外部命令
